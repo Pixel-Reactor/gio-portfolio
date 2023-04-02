@@ -1,0 +1,30 @@
+.fxcntcnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fxcolcnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+@keyframes flashes {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
