@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gio-portfolio/static/css/main.a4e9cd58.css",
-    "main.js": "/gio-portfolio/static/js/main.f0215430.js",
+    "main.css": "/gio-portfolio/static/css/main.eee848c3.css",
+    "main.js": "/gio-portfolio/static/js/main.f1b70726.js",
     "static/js/787.42121ff9.chunk.js": "/gio-portfolio/static/js/787.42121ff9.chunk.js",
     "static/media/video-uni.mp4": "/gio-portfolio/static/media/video-uni.3448b4e231030ac86dc4.mp4",
     "static/media/Navidad Argentina, SL.mp4": "/gio-portfolio/static/media/Navidad Argentina, SL.4e216c93b3e2c0cec12c.mp4",
@@ -18,6 +18,7 @@
     "static/media/bosque.jpeg": "/gio-portfolio/static/media/bosque.98a48ffc1ca7f87fc160.jpeg",
     "static/media/WhatsApp Image 2022-10-12 at 18.27.28.jpeg": "/gio-portfolio/static/media/WhatsApp Image 2022-10-12 at 18.27.28.f167f0fdfa47d668b165.jpeg",
     "static/media/WhatsApp Image 2022-10-12 at 19.35.33.jpeg": "/gio-portfolio/static/media/WhatsApp Image 2022-10-12 at 19.35.33.203f091ad783d2504abf.jpeg",
+    "static/media/fondogio.jpg": "/gio-portfolio/static/media/fondogio.caa356dfac6418ea41a3.jpg",
     "static/media/WhatsApp Image 2022-10-12 at 19.35.33 (1).jpeg": "/gio-portfolio/static/media/WhatsApp Image 2022-10-12 at 19.35.33 (1).f7d720fb31550bd63d95.jpeg",
     "static/media/WhatsApp Image 2022-10-12 at 19.19.35 (1).jpeg": "/gio-portfolio/static/media/WhatsApp Image 2022-10-12 at 19.19.35 (1).036907676770b50d6466.jpeg",
     "static/media/WhatsApp Image 2022-10-12 at 18.51.27.jpeg": "/gio-portfolio/static/media/WhatsApp Image 2022-10-12 at 18.51.27.f58654b29d2496c6cd20.jpeg",
@@ -34,12 +35,12 @@
     "static/media/linkedin.png": "/gio-portfolio/static/media/linkedin.6892b3ae328c7a1e055f.png",
     "static/media/logo.svg": "/gio-portfolio/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/gio-portfolio/index.html",
-    "main.a4e9cd58.css.map": "/gio-portfolio/static/css/main.a4e9cd58.css.map",
-    "main.f0215430.js.map": "/gio-portfolio/static/js/main.f0215430.js.map",
+    "main.eee848c3.css.map": "/gio-portfolio/static/css/main.eee848c3.css.map",
+    "main.f1b70726.js.map": "/gio-portfolio/static/js/main.f1b70726.js.map",
     "787.42121ff9.chunk.js.map": "/gio-portfolio/static/js/787.42121ff9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4e9cd58.css",
-    "static/js/main.f0215430.js"
+    "static/css/main.eee848c3.css",
+    "static/js/main.f1b70726.js"
   ]
 }
