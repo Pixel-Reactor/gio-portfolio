@@ -7,17 +7,17 @@ const Galeria = (props) => {
     const [carpeta, setcarpeta] = useState('');
     const [fotos, setfotos] = useState('');
     const [pos, setpos] = useState(0);
-    const omar = require.context('./Omar')
+    const omar = require.context('./Oumar')
     const lacarolina = require.context('./lacarolina');
     const venecia = require.context('./Venecia');
-    const delirio = require.context('./delirio');
+    const delirio = require.context('./deliriodediseño');
 
     console.log(props.gallery)
 useEffect(() => {
     setcarpeta(props.gallery) ;
     if(props.gallery === 'omar'){
         setfotos(omar.keys());
-        setcarpeta('./Omar')
+        setcarpeta('./Oumar')
     }
     if(props.gallery === 'carolina'){
         setfotos(lacarolina.keys());
@@ -29,7 +29,7 @@ useEffect(() => {
     }
     if(props.gallery === 'delirio'){
         setfotos(delirio.keys());
-        setcarpeta('./delirio')
+        setcarpeta('./deliriodediseño')
     }
 
 

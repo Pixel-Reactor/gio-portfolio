@@ -3,15 +3,10 @@ import { useNavigate } from 'react-router-dom';
 const Fotos = (props) => {
   const navigate = useNavigate();
   const [carolina, setcarolina] = useState('CAROLINA');
-  const [omar, setomar] = useState('OMAR');
+  const [omar, setomar] = useState('OUMAR');
   const [venecia, setvenecia] = useState('VENECIA');
-  const [delirio, setdelirio] = useState('DELIRIO');
-  const omarfolder = require.context('./Omar')
-  const lacarolinafolder = require.context('./lacarolina');
-  const veneciafolder = require.context('./Venecia');
-  const deliriofolder = require.context('./delirio');
- 
-  
+  const [delirio, setdelirio] = useState('DELIRIO DE DISEÑO');
+
 
   return (
     <div className='maincontainer'>
