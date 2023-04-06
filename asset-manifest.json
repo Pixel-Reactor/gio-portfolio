@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gio-portfolio/static/css/main.b58ddb38.css",
-    "main.js": "/gio-portfolio/static/js/main.b25ba5b1.js",
+    "main.css": "/gio-portfolio/static/css/main.30b0a433.css",
+    "main.js": "/gio-portfolio/static/js/main.460a319a.js",
     "static/js/787.42121ff9.chunk.js": "/gio-portfolio/static/js/787.42121ff9.chunk.js",
     "static/media/Calden.mp4": "/gio-portfolio/static/media/Calden.3448b4e231030ac86dc4.mp4",
     "static/media/Navidad Argentina, SL.mp4": "/gio-portfolio/static/media/Navidad Argentina, SL.4e216c93b3e2c0cec12c.mp4",
@@ -13,6 +13,7 @@
     "static/media/rio.jpeg": "/gio-portfolio/static/media/rio.5c1b518942921e9c2870.jpeg",
     "static/media/giogiogio.png": "/gio-portfolio/static/media/giogiogio.40954e3d064e91a9b275.png",
     "static/media/bosuqedos.jpeg": "/gio-portfolio/static/media/bosuqedos.8598f37824c188a911f9.jpeg",
+    "static/media/cover2.jpg": "/gio-portfolio/static/media/cover2.9eee56e1f9d19b3ab512.jpg",
     "static/media/estatua.jpeg": "/gio-portfolio/static/media/estatua.87c033bf805a8adaeffb.jpeg",
     "static/media/delirio2.jpeg": "/gio-portfolio/static/media/delirio2.ca1ef3bc0d12fcc7aac7.jpeg",
     "static/media/Venecia2.jpeg": "/gio-portfolio/static/media/Venecia2.71406d24ba334ecf054f.jpeg",
@@ -26,18 +27,22 @@
     "static/media/oumar1.jpeg": "/gio-portfolio/static/media/oumar1.480796c819464647047d.jpeg",
     "static/media/oumar3.jpg": "/gio-portfolio/static/media/oumar3.0c412c81739d812fd671.jpg",
     "static/media/Frame.png": "/gio-portfolio/static/media/Frame.414007d064e6780831a9.png",
+    "static/media/cover1.jpg": "/gio-portfolio/static/media/cover1.f4777b20b57696b45dbb.jpg",
+    "static/media/cover5.jpg": "/gio-portfolio/static/media/cover5.6958a88e0816028c34e1.jpg",
     "static/media/instagram.png": "/gio-portfolio/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/cover4.jpg": "/gio-portfolio/static/media/cover4.455998b70dc472d63c9b.jpg",
+    "static/media/cover3.jpg": "/gio-portfolio/static/media/cover3.52c1fbf1bcfd62d933bc.jpg",
     "static/media/whatsapp.png": "/gio-portfolio/static/media/whatsapp.1dd8ca2765f1f177ab22.png",
     "static/media/arrow-left.png": "/gio-portfolio/static/media/arrow-left.21fa146a562e0642eba0.png",
     "static/media/linkedin.png": "/gio-portfolio/static/media/linkedin.6892b3ae328c7a1e055f.png",
     "static/media/logo.svg": "/gio-portfolio/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/gio-portfolio/index.html",
-    "main.b58ddb38.css.map": "/gio-portfolio/static/css/main.b58ddb38.css.map",
-    "main.b25ba5b1.js.map": "/gio-portfolio/static/js/main.b25ba5b1.js.map",
+    "main.30b0a433.css.map": "/gio-portfolio/static/css/main.30b0a433.css.map",
+    "main.460a319a.js.map": "/gio-portfolio/static/js/main.460a319a.js.map",
     "787.42121ff9.chunk.js.map": "/gio-portfolio/static/js/787.42121ff9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b58ddb38.css",
-    "static/js/main.b25ba5b1.js"
+    "static/css/main.30b0a433.css",
+    "static/js/main.460a319a.js"
   ]
 }
