@@ -25,7 +25,7 @@
 }
 .maincontainer{
     color: rgb(255, 255, 255);
-    min-height: 600px;
+    min-height: 500px;
     width: 100%;
     background-color: black;
 }
@@ -37,11 +37,11 @@
 }
 .camaracontainer{
     width: 100%;
-    height:calc(100% - 65px);
+    height:calc(100% - 95px);
     position: absolute;
-    top: 135px;
+    top: 115px;
     left: 0;
-    z-index: 0;
+    
 }
 .camaracontainer span:nth-child(1){
     position: absolute;
@@ -65,7 +65,7 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    bottom:0px;
+    bottom:35px;
     left: 0;
     border-bottom: 3px solid white;
     border-left: 3px solid white;
@@ -74,10 +74,10 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    bottom:0px;
+    bottom:35px;
     right: 0px;
-    border-bottom: 3px solid rgba(255, 255, 255, 0.422);
-    border-right: 3px solid rgba(255, 255, 255, 0.448);
+    border-bottom: 3px solid rgba(255, 255, 255);
+    border-right: 3px solid rgba(255, 255, 255);
 }
 .camaracontainer span:nth-child(5){
     position: absolute;
@@ -112,8 +112,8 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    border: 1px solid white;
-    border-radius: 30%;
+    border: 2px dashed white;
+    border-radius: 50%;
     animation: camararotation 7s infinite ease-in-out alternate;
 }
 .camaracontainer span:nth-child(8){
@@ -125,7 +125,8 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    border: 1px solid rgb(155, 127, 35);
+    border: 3px dotted rgb(155, 127, 35);
+    border-radius: 30%;
     animation: camararotation 7s infinite ease-in-out alternate-reverse;
 
 }
@@ -159,7 +160,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 500px;
+    min-height: 450px;
+    min-width: 400px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.containervideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
     flex-wrap: wrap;
     position: relative;
 }
@@ -238,6 +248,27 @@
     border: 1px solid white;
     border-radius: 5px;
 }
+.videos{
+    width: 100%;
+    height:100%;
+    flex-wrap: wrap;
+   
+}
+.video{
+    margin: 5px;
+    transition: all 1s;
+    height: 130px;
+  
+}
+.videosel{
+    margin: 10px;
+    transition: all 1s;
+    height: 130px;
+    border: 3px solid white;
+}
+.video:hover{
+    transform: scale(1.2);
+}
 
 @keyframes flashes {
     0% {
@@ -252,15 +283,13 @@
 }
 
 @keyframes homeblur{
-    from{
-        
-        filter: blur(0px);
-
-    }
-    to{
-     
-        filter: blur(1px);
-    }
+    0%{ filter: blur(0px);}
+    25%{filter: blur(1px);}
+    50%{ filter: blur(2px);  }
+    75%{filter: blur(3px);}
+    100%{filter: blur(0px);}
+    
+   
 }
 @keyframes camararotation{
     from{

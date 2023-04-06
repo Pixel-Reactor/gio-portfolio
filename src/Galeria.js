@@ -42,11 +42,11 @@ useEffect(() => {
 
     return (
         <div className="maincontainer">
-            <header><h1 className='pd20 headergallery'>{props.gallery}  <img onClick={()=>navigate('/fotos')} src={require('./icons/replay.png')} width={'30px'} alt=":(" /></h1></header>
+            <header><h1 className='pd20 headergallery'>{props.gallery}  <img onClick={()=>navigate('/fotos')} src={require('./icons/replay.png')} width='30px' alt=":(" /></h1></header>
             <div className=" container ">
-            <div className='fxcntcnt arrowleft' onClick={()=>{pos-1 < 0 ? setpos(fotos.length -1) : setpos(pos - 1)}} ><img onClick={()=>{pos-1 < 0 ? setpos(fotos.length-1) : setpos(pos - 1)}} src={require('./icons/arrow-left.png')} alt="" /></div>
+            <div className='fxcntcnt arrowleft' onClick={()=>{pos-1 < 0 ? setpos(fotos.length -1) : setpos(pos - 1)}} ><img onClick={()=>{pos-1 < 0 ? setpos(fotos.length-1) : setpos(pos - 1)}} src={require('./icons/arrow-left.png')} alt="left" /></div>
             {fotos ? <img src={require(`${carpeta}/${fotos[pos].slice(2)}`)} width={'200px'} alt=':('/> : 'Ooops.. No hay nada que mostrar.. por favor,vuelve a intentarlo '} 
-            <div className='fxcntcnt arrowright' onClick={()=>{pos+1 > fotos.length -1? setpos(0) : setpos(pos+1)}}><img onClick={()=>pos+1 > fotos.length -1? setpos(0) : setpos(pos+1)} src={require('./icons/arrow-left.png')} alt="" />	</div>
+            <div className='fxcntcnt arrowright' onClick={()=>{pos+1 > fotos.length -1? setpos(0) : setpos(pos+1)}}><img onClick={()=>pos+1 > fotos.length -1? setpos(0) : setpos(pos+1)} src={require('./icons/arrow-left.png')}  alt="right" />	</div>
 
             </div>
        <div className="minigallery">{

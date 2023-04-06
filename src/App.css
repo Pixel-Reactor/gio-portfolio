@@ -25,8 +25,8 @@ h2 p{
   margin-right: 20px;
 }
 .header {
-  width: calc(100% -20px);
-  height: 100px;
+  width: calc(100% - 20px);
+  height: 70px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -37,6 +37,7 @@ h2 p{
   font-family: 'Teko', sans-serif;
   padding: 15px;
   z-index: 100;
+  
 }
 
 .header ul {
@@ -65,6 +66,7 @@ h2 p{
   align-items: center;
  
 }
+
 .enlaces ul{
   display: flex;
   width: 100%;
@@ -88,7 +90,7 @@ h2 p{
 }
 .home {
   width: 100vw;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 135px);
   overflow: hidden;
   position: relative;
   top: 0;
@@ -96,6 +98,7 @@ h2 p{
   background-position:center;
   background-repeat: no-repeat;
   background-size:cover;
+ 
   animation:  homeblur 7s infinite ease-in-out alternate-reverse;
 
 }
@@ -129,13 +132,11 @@ h2 p{
 }
 .headergallery{
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-header img{
-  margin-left: 50px;
-  position: absolute;
-  right: 20px;
-  top: 125px;
-}
+
 .container img{
   width: 400px;
   max-width: 600px;
@@ -144,17 +145,18 @@ header img{
 }
 .arrowleft{
   margin: 10px;
-  height: 80%;
   width: 50px;
-  font-weight: 800;
+ 
+
 }
 .arrowleft img{
-  width: 40px;
+  width: 100%;
 }
+
 .arrowright{
   margin: 10px;
-  height: 80%;
   width: 50px;
+
 }
 .arrowright img{
   width: 40px;
@@ -184,6 +186,20 @@ header img{
 .minipicnotsel{
   border: 0;
   margin: 10px;
+}
+
+@media (max-width: 550px) {
+  .container img{
+    width: 250px;
+   
+  }
+ .arrowleft img{
+  width: 40px;
+ }
+  .arrowright img{
+    width: 40px;
+    transform: rotate(180deg);
+  }
 }
 @keyframes scale {
   0% {

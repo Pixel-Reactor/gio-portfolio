@@ -11,21 +11,22 @@ import Galeria from './Galeria';
 import Enlaces from './Enlaces';
 
 function App() {
-const [nav, setnav] = useState('bio');
-const [gallery, setgallery] = useState('');
+  const [nav, setnav] = useState('bio');
+  const [gallery, setgallery] = useState('');
   return (
 
     <div className="App">
       <Header nav={setnav} />
       <Enlaces />
-        <Routes>
-          <Route exact path="/" element={<Home loc={nav}/>} />
-          <Route exact path="/fotos" element={<Fotos gallery={setgallery} loc={nav}/>} />
-          <Route exact path="/videos" element={<Videos loc={nav}/>} />
-          <Route exact path="/galeria" element={<Galeria gallery={gallery} loc={nav}/>} />
+      <Routes>
 
-        </Routes>
-      
+        <Route exact path="/" element={<Home loc={nav} />} />
+        <Route exact path="/fotos" element={<Fotos gallery={setgallery} loc={nav} />} />
+        <Route exact path="/videos" element={<Videos loc={nav} />} />
+        <Route exact path="/galeria" element={<Galeria gallery={gallery} loc={nav} />} />
+
+      </Routes>
+
     </div>
   );
 }
