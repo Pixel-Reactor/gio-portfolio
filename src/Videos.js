@@ -12,6 +12,7 @@ import cover2 from './Images/cover2.jpg'
 import cover4 from './Images/cover4.jpg'
 import cover5 from './Images/cover5.jpg'
 import cover3 from './Images/cover3.jpg'
+import tres from './Images/3.jpg'
 const Videos = (props) => {
   const [selection, setselection] = useState(covid);
 
@@ -44,7 +45,7 @@ const Videos = (props) => {
         <video className={selection === navidad ? 'videosel' : 'video'} onClick={() => setselection(navidad)} width="150px" height="300" poster={cover2} muted  >
           <source src={navidad} type="video/mp4" />
         </video>
-        <video className={selection === back1 ? 'videosel' : 'video'} onClick={() => setselection(back1)} width="150px" height="300" muted  >
+        <video className={selection === back1 ? 'videosel' : 'video'} onClick={() => setselection(back1)} width="150px" height="300" poster={tres} muted  >
           <source src={back1} type="video/mp4" />
         </video>
         <video className={selection === back2 ? 'videosel' : 'video'} onClick={() => setselection(back2)} width="150px"  poster={cover4} height="300" muted  >

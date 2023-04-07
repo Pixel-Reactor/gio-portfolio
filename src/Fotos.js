@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 const Fotos = (props) => {
   const navigate = useNavigate();
-  const [carolina, setcarolina] = useState('CAROLINA');
+  const [carolina, setcarolina] = useState('LA CAROLINA');
   const [omar, setomar] = useState('OUMAR');
   const [venecia, setvenecia] = useState('VENECIA');
-  const [delirio, setdelirio] = useState('DELIRIO DE DISEÑO');
+  const [delirio, setdelirio] = useState('DELIRIOS DE DISEÑO');
 
 
   return (
