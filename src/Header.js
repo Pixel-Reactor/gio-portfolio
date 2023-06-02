@@ -29,8 +29,8 @@ const Header = (props) => {
       <div className='profile'></div>
       <ul>
         <li className='fxcntcnt' onClick={() => { setSel('bio'); props.nav('bio'); navigate('/') }}><p className='liheaderp'>SOBRE MI</p>  <div style={Sel === 'bio' ? Selected : NotSelected} className='bdw fxcntcnt'></div> </li>
-        <li className='fxcntcnt' onClick={() => { setSel('fotos'); props.nav('fotos'); navigate('/fotos') }}>GALLERIA FOTOS <div style={Sel === 'fotos' ? Selected : NotSelected} /></li>
-        <li className='fxcntcnt' onClick={() => { setSel('videos'); props.nav('videos'); navigate('/videos') }}>GALLERIA VIDEOS <div style={Sel === 'videos' ? Selected : NotSelected} /></li>
+        <li className='fxcntcnt' onClick={() => { setSel('fotos'); props.nav('fotos'); navigate('/fotos') }}>GALERIA FOTOS <div style={Sel === 'fotos' ? Selected : NotSelected} /></li>
+        <li className='fxcntcnt' onClick={() => { setSel('videos'); props.nav('videos'); navigate('/videos') }}>GALERIA VIDEOS <div style={Sel === 'videos' ? Selected : NotSelected} /></li>
 
 
 

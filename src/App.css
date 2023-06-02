@@ -126,7 +126,7 @@ h2 p{
 
 .text p:nth-child(2) {
   color: rgb(149, 28, 28);
-  font-size: 32px;
+  font-size: 34px;
   font-family: 'Teko', sans-serif;
   z-index: 1000;
 }
